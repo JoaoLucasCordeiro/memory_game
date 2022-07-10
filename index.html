@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon/feliz.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Jogo da memória</title>
+</head>
+
+<body>
+
+
+    <div class="game-container">
+
+        <div class="gameName-andTimer">
+            
+            <h1 id="h1-game-name">
+                Jogo da memória
+            </h1>
+
+            <div class="timer">
+                <h2 id="h2-timer">
+                    Seu tempo:
+                </h2>
+
+                <div class="numbers-timer">
+                    <h1 id="stopWatch">00:00</h1>
+                </div>
+
+            </div>
+
+            <div class="timer-button">
+                <button id="btn-restart">Restart</button>
+            </div>
+
+            <div id="social-media">
+                <div class="icon-sm">
+                    <a href="https://www.linkedin.com/in/joaolucascordeiro/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="icon-sm">
+                    <a href="https://github.com/JoaoLucasCordeiro"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="icon-sm">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- tabuleiro do jogo -->
+
+        <div id="game-board">
+
+            <!-- <div id="684852" class="card" data-icon="bootStrap">
+                <div class="card-front">
+                    <img src="./images/bootstrap.png" alt="icon">
+                </div>
+    
+                <div class="card-back">
+                     <img src="./icon/logoMarvel.png" alt="logo-back-marvel">
+                </div>
+            </div> -->
+
+        </div>
+
+    </div>
+   
+    <!-- <i class="fa-solid fa-rocket"></i> -->
+
+   
+
+    <!-- tela de game over -->
+
+    <div id="game-over">
+        <h1 id="h1-game-over">
+            Parabéns, você completou o jogo!
+        </h1>
+
+        <button id="restart-btn" onclick="restartGame()">Jogar Novamente</button>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/721fa646a8.js" crossorigin="anonymous"></script>
+    <script src="./JS/game.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
