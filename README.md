@@ -1,6 +1,6 @@
 # Jogo da memória 
 
-Olá, este é um jogo da memória criado por mim! O objetivo é bastante simples, formar todos os pares o mais rápido que você puder, e enquanto isso, existe um cronômetro que vai mostrando o seu tempo! 
+Jogo da memória desenvolvido por mim, utilizando HTML, CSS e JavaScript. O objetivo é bastante simples, formar todos os pares o mais rápido que você puder, e enquanto isso, existe um cronômetro que vai mostrando o seu tempo! Toda a lógica do jogo foi separada da parte visual em dois arquivos, facilitando assim a leitura e interpretação do código.
 
 ### Imagem do projeto
 
