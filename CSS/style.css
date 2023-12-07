@@ -12,7 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #15151E;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -33,9 +36,9 @@ body {
 
 #h1-game-name {
     font-family: 'Press Start 2P', cursive;
-    color: #FF1628;
+    color: #EEE;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin-bottom: 4rem;
     transition: .5s ease-in-out;
 }
@@ -49,9 +52,9 @@ body {
 
 #h2-timer {
     font-family: 'Press Start 2P', cursive;
-    color: #FF1628;
+    color: #EEE;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-    font-size: 1.1;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 
@@ -62,7 +65,7 @@ body {
 
 #stopWatch {
     font-family: 'Press Start 2P', cursive;
-    color: #FF1628;
+    color: #EEE;
     font-size: 1.7rem;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
@@ -89,7 +92,8 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-#btn-action-stop:hover, #btn-restart:hover {
+#btn-action-stop:hover,
+#btn-restart:hover {
     transform: scale(0.9);
     background-color: #FF1628;
 }
@@ -107,14 +111,14 @@ body {
 }
 
 .icon-sm i {
-    font-size: 2rem;
-    color: #FF1628; 
+    font-size: 2.5rem;
+    color: #EEE;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
 
 .icon-sm i:hover {
-    color: #FFF;
+    color: #FF1628;
 }
 
 /* frente e verso das cartas */
@@ -128,7 +132,8 @@ body {
     cursor: pointer;
 }
 
-.card-front, .card-back {
+.card-front,
+.card-back {
     width: 100%;
     height: 100%;
     display: flex;
@@ -155,7 +160,7 @@ body {
     transition: .2s ease-in-out;
 }
 
-.card-back img{
+.card-back img {
     width: 75px;
 }
 
@@ -244,7 +249,7 @@ body {
     }
 
     /* img da carta que fica atrás */
-    .card-back img{
+    .card-back img {
         width: 60px;
     }
 
@@ -252,7 +257,7 @@ body {
     .card-front img {
         width: 45px;
     }
-    
+
     /* nome do jogo */
     #h1-game-name {
         font-size: 1.5rem;
@@ -264,7 +269,7 @@ body {
     }
 
     /* numero do timer */
-    #stopWatch{
+    #stopWatch {
         font-size: 1rem;
     }
 
@@ -286,67 +291,69 @@ body {
         font-size: 0.7rem;
         border-radius: 8px;
     }
-    
+
 }
 
 /* Iphone SE res */
-@media only screen and (min-width:375px) and (max-width: 667px){
+@media only screen and (min-width:375px) and (max-width: 667px) {
 
-     /* container do game */
-     .game-container {
+    /* container do game */
+    .game-container {
         flex-direction: column;
         gap: 2.5rem;
     }
 
     /* dimensões das cartas */
     .card {
-        width: 60px;
-        height: 60px;
+        width: 85px;
+        height: 85px;
     }
 
     /* frente e verso das cartas */
 
-    .card-front, .card-back {
+    .card-front,
+    .card-back {
         border-radius: 15px;
     }
-    
+
     /* img da carta que fica atrás */
-    .card-back img{
-        width: 45px;
+    .card-back img {
+        width: 60px;
     }
 
     /* img da carta que fica para frente (os heróis) */
     .card-front img {
-        width: 25px;
+        width: 40px;
     }
-    
+
     /* nome do jogo */
     #h1-game-name {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-bottom: 2rem;
     }
 
     /* timer do jogo */
     #h2-timer {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     /* numero do timer */
-    #stopWatch{
-        font-size: 0.8rem;
+    #stopWatch {
+        font-size: 1rem;
     }
 
     /* botão restart do jogo */
     #btn-restart {
-        padding: 0.6rem;
-        font-size: 0.4rem;
+        
+        padding: 1rem;
+        font-size: 0.6rem;
         border-radius: 8px;
     }
 
     /* icones de redes sociais */
 
     .icon-sm i {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     /* h1 que aparece quando dar game over */
@@ -362,4 +369,4 @@ body {
     }
 
 
-}   
+}
